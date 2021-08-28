@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/favi/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favi/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favi/favicon-16x16.png">  
-    <link rel="manifest" href="/favi/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="favi/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favi/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favi/favicon-16x16.png">  
+    <link rel="manifest" href="favi/site.webmanifest">
     <title>Reuben Vinod</title>
 </head>
 <body>
@@ -43,7 +43,7 @@
     <div class="grid-flex">
 
     <div class="col col-image" >
-     <img  data-aos="zoom-in"  data-aos-duration="1000" src="/Images/Profile.PNG">
+     <img  data-aos="zoom-in"  data-aos-duration="1000" src="Images/Profile.PNG">
     </div>
  
     <div class="col col-text" data-aos="zoom-in"  data-aos-duration="1000">  
@@ -77,13 +77,13 @@
     <hr id="projecthr">
         <div class="projectlist">
             <div class="projectitem 1" data-aos="zoom-in-right" data-aos-duration="1000"><a target="_blank" href="https://lucky-quinn.github.io/Color_picker/">
-				<img src="/Images/Colorpicker.PNG"><p class="des">Color picker <br><span class="code">A 8 button layout to pick random colors to display the color onto the background upon clicking, written using HTML/CSS and JS</span></p>
+				<img src="Images/Colorpicker.PNG"><p class="des">Color picker <br><span class="code">A 8 button layout to pick random colors to display the color onto the background upon clicking, written using HTML/CSS and JS</span></p>
 			</a></div>
             <div class="projectitem 2" data-aos="zoom-in-right" data-aos-delay="50" data-aos-duration="1000"><a target="_blank" href="https://lucky-quinn.github.io/Counter-App/">
-                <img src="/Images/Counterapp.PNG"><p class="des">Counter App <br><span class="code">A app based on react to count numbers by incrementing/decrementing using buttons and javascript</span></p>
+                <img src="Images/Counterapp.PNG"><p class="des">Counter App <br><span class="code">A app based on react to count numbers by incrementing/decrementing using buttons and javascript</span></p>
             </a></div>
             <div class="projectitem 3" data-aos="zoom-in-right" data-aos-delay="50" data-aos-duration="1000"><a target="_blank" href="https://sites.google.com/view/cpsyearbook">
-                <img src="/Images/Yearbook.PNG"><p class="des">School yearbook <br><span class="code">A website made using google sites incorporating the data and images of a school's batch with over 700 students</span></p>
+                <img src="Images/Yearbook.PNG"><p class="des">School yearbook <br><span class="code">A website made using google sites incorporating the data and images of a school's batch with over 700 students</span></p>
             </a></div>
         </div>
     <br>
@@ -160,7 +160,6 @@
         x.className = "topnav";
       }
     }
-
     var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
@@ -196,7 +195,6 @@ TxtRotate.prototype.tick = function() {
     this.loopNum++;
     delta = 500;
   }
-
   setTimeout(function() {
     that.tick();
   }, delta);
