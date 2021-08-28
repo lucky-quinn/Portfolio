@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Metrophobic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favi/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favi/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favi/favicon-16x16.png">  
+    <link rel="manifest" href="/favi/site.webmanifest">
+    <title>Reuben Vinod</title>
+</head>
+<body>
+<div class="content">
+    <div class="header">
+            <p id=headerp>I'm</p>
+            <h1>Reuben Vinod</h1>
+            <span
+                id="typed-text"
+                class="txt-rotate"
+                data-period="2000"
+                data-rotate='[ "manager.", "web developer.", "Coder.", "Gamer.", "fun!" ]'></span>
+    </div>
+        <div class="topnav" id="myTopnav">
+            <a id="link" onclick="myFunction()" href="#" class="active">Home</a>
+            <a id="link" onclick="myFunction()" href="#about">About</a>
+            <a id="link" onclick="myFunction()" href="#portfolio">Projects</a>
+            <a id="link" onclick="myFunction()" href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>    
+<!-- About Section -->
+ <div id="about">
+    <h1 id="abouth1" data-aos="zoom-in"  data-aos-duration="1000" >About me</h1>
+    <hr id="abouthr">
+    <div class="grid-flex">
+
+    <div class="col col-image" >
+     <img  data-aos="zoom-in"  data-aos-duration="1000" src="/Images/Profile.PNG">
+    </div>
+ 
+    <div class="col col-text" data-aos="zoom-in"  data-aos-duration="1000">  
+        <div class="Aligner-item">
+            <h2 id="green">That's me</h2>
+            <p> From kerala, the land of coconuts, I am a first year computer science engineering student from Mar Baselios College of Engineering and Technology, Trivandrum. <br> 
+                I have experience managing various projects including those handling the data of upto a thousand volunteers.
+                I work well in a team and have proven myself as an effective team leader.
+            </p>   
+            <h3 id="green">Few things I like</h3> 
+            <p>
+                I love playing video games and spend most of my time on the computer and trying out new Tech.
+                <br>
+                <br> 
+                I’m always looking for a new challenge. I’ve recently gotten interested in data science and noticed the various situations I can apply some automated learning.
+                <br>
+                <br>
+                Milkmaid. cooking is nice and cooking for yourself is even better.
+                <br>
+                <br>
+                Love meeting new people. Feel free to connect with me on Linkedin
+            </p>   
+        </div>
+    </div>
+    </div>
+    <br>
+</div>
+<!-- Projects Section -->
+ <div id="portfolio">
+    <h1 id="projecth1" data-aos="zoom-in"  data-aos-duration="1000">Projects I have done</h1>
+    <hr id="projecthr">
+        <div class="projectlist">
+            <div class="projectitem 1" data-aos="zoom-in-right" data-aos-duration="1000"><a target="_blank" href="https://lucky-quinn.github.io/Color_picker/">
+				<img src="/Images/Colorpicker.PNG"><p class="des">Color picker <br><span class="code">A 8 button layout to pick random colors to display the color onto the background upon clicking, written using HTML/CSS and JS</span></p>
+			</a></div>
+            <div class="projectitem 2" data-aos="zoom-in-right" data-aos-delay="50" data-aos-duration="1000"><a target="_blank" href="https://lucky-quinn.github.io/Counter-App/">
+                <img src="/Images/Counterapp.PNG"><p class="des">Counter App <br><span class="code">A app based on react to count numbers by incrementing/decrementing using buttons and javascript</span></p>
+            </a></div>
+            <div class="projectitem 3" data-aos="zoom-in-right" data-aos-delay="50" data-aos-duration="1000"><a target="_blank" href="https://sites.google.com/view/cpsyearbook">
+                <img src="/Images/Yearbook.PNG"><p class="des">School yearbook <br><span class="code">A website made using google sites incorporating the data and images of a school's batch with over 700 students</span></p>
+            </a></div>
+        </div>
+    <br>
+ </div>
+<!-- contact Section -->
+  <div id="contact">
+    <h1 id="contacth1">Contact me</h1>
+    <hr id="contacthr">
+    <div>
+        <h3 id="contacth3">Let's get in touch. Send me a message:</h3>
+        <form class="contact-form" autocomplete="off" data-aos="fade-down-right" data-aos-delay="50" >
+            <div class="group">      
+                <input type="text" required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Name</label>
+            </div>
+            <div class="group">      
+                <input type="email" required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Email</label>
+            </div>
+            <div class="group">      
+                <input type="text" required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Subject</label>
+            </div>
+            <div class="group" id="longtext">    
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <textarea class="group" id="message"  required></textarea>
+                <label id=message-text>Message</label>     
+            </div>
+            <button id="subbtn" type="submit">Submit</button>
+        </form>
+    </div>
+ </div>
+</div>
+<!-- Footer Section -->
+<footer>
+    <a target="_blank" href="https://www.linkedin.com/in/reubenvinod/">
+    <div class="wrapper">
+        <div class="icon Linkedin">
+        <div class="tooltip">Linkedin</div>
+        <span><i class="fab fa-linkedin"></i></span>
+        </div>
+    </a>
+    <a target="_blank" href="https://www.instagram.com/lucky_quinn_/">
+    <div class="icon instagram">
+      <div class="tooltip">Instagram</div>
+      <span><i class="fab fa-instagram"></i></span>
+    </div>
+    </a>
+    <a target="_blank" href="https://github.com/lucky-quinn">
+    <div class="icon github">
+      <div class="tooltip">Github</div>
+      <span><i class="fab fa-github"></i></span>
+    </div>
+    </a>
+  </div>
+  <hr id="foot">
+  <h1 id="foottxt">Reuben vinod</h1>
+</footer>
+</body>
+<script>
+//Navigation bar
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+
+    var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+//Typing text
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 300 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  // INJECT CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
+};
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>   
+</html>
