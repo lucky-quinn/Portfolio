@@ -22,7 +22,7 @@ body{
   color: #aaa;
 }
 .content{
-    margin-bottom:  350px;
+    margin-bottom:  250px;
     background: #222;
 }
 #green{
@@ -259,6 +259,7 @@ body{
 }
 .contact-form{
     margin: 2em;
+    padding-bottom: 3em;
 }
 .group{ 
     position:relative; 
